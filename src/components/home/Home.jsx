@@ -10,6 +10,7 @@ const StyledButton = styled.button`
   background-color: transparent; // Default background color
   border: 1px solid ${Colors.LIGHT_GRAY};
   color: ${Colors.WHITE};
+  font-size: 1.25rem;
   cursor: pointer;
   transition: background-color 0.3s ease; // Smooth transition for the background color
 
@@ -34,13 +35,13 @@ const Home = () => {
         style={{ width: '600px', height: 'auto',}}
       />
       <p style={{ fontSize: '1.25rem', marginBottom: '20px', color: Colors.WHITE }}>
-        Official Launch for IOS on New Years 🎉
+        Official Launch for IOS on April 1st 2024 🎉
       </p>
       <p style={{ fontSize: '1.25rem', marginBottom: '20px', color: Colors.WHITE }}>
         </p>
         <a href="https://testflight.apple.com/join/crr4Eu99" target="_blank" style={{ textDecoration: 'none' }}>
           <StyledButton>
-            Try the beta!
+            In the meantime, try the beta!
           </StyledButton>
         </a>
         <Footer />

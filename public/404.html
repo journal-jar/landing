@@ -48,7 +48,7 @@
         // Check if the pathname is "/privacy" (or any other SPA route)
         if (window.location.pathname !== '/') {
           // Redirect to the homepage URL with a hash (or use a query parameter)
-          window.location.replace('/' + window.location.pathname + window.location.search);
+          window.location.replace('/#' + window.location.pathname + window.location.search);
         }
       })();
     </script>
