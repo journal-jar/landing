@@ -3,6 +3,7 @@ import { FaLinkedin, FaFacebook, FaYoutube, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import styled from "styled-components";
 import Colors from "../../utils/Colors";
+import { useNavigate } from "react-router-dom";
 
 const FooterWrapper = styled.div`
     width: 100%;
@@ -15,6 +16,7 @@ const FooterWrapper = styled.div`
 const PrivacyLink = styled.a`
     color: ${Colors.WHITE};
     text-decoration: none;
+    cursor: pointer;
 
     &:hover {
         color: ${Colors.PURPLE};
@@ -41,10 +43,17 @@ const Icon = styled.div`
     }
 `;
 
+
 const Footer = () => {
+    const navigate = useNavigate();
+    
+    const handlePrivacy = () => {
+        navigate("/privacy");
+    }
+
     return (
         <FooterWrapper>
-            <PrivacyLink href="/privacy">Privacy Policy</PrivacyLink>
+            <PrivacyLink onClick={handlePrivacy} >Privacy Policy</PrivacyLink>
             <Container>
                 <a href="https://www.linkedin.com/company/journal365/">
                     <Icon as={FaLinkedin} />
