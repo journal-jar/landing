@@ -41,7 +41,7 @@ const Home = () => {
         </p>
         <a href="https://testflight.apple.com/join/crr4Eu99" target="_blank" style={{ textDecoration: 'none' }}>
           <StyledButton>
-            In the meantime, try the beta!
+            In the meantime, try the beta
           </StyledButton>
         </a>
         <Footer />
