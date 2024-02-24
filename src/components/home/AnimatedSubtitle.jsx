@@ -52,7 +52,7 @@ const AnimatedSubtitle = () => {
             <p style={{ color: Colors.WHITE, fontSize: '1.5rem' }}>
                 A year of
             </p>
-            <div style={{width: "145px"}}>
+            <div style={{width: "100px"}}>
                 <Word key={index}>
                     &nbsp;{toggleWords[index]}
                 </Word>
