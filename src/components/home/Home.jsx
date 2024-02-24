@@ -21,7 +21,7 @@ const StyledButton = styled.button`
 
 const Home = () => {
   return (
-    <div style={{ textAlign: 'center', padding: '20px 10%', backgroundColor: Colors.BLACK }}>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: 'center', padding: '20px 10%', backgroundColor: Colors.BLACK }}>
       <h1 style={{ fontSize: '3rem', marginBottom: '20px', color: Colors.WHITE }}>Journal365</h1>
       <p style={{ fontSize: '1.5rem', color: Colors.WHITE }}>
           Take the Journal365 Challenge!

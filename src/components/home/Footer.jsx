@@ -11,6 +11,9 @@ const FooterWrapper = styled.div`
     justify-content: flex-end;
     align-items: center;
     padding: 20px;
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
 `;
 
 const PrivacyLink = styled.a`
