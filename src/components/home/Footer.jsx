@@ -61,7 +61,7 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/company/journal365/">
                     <Icon as={FaLinkedin} />
                 </a>
-                <a href="https://www.facebook.com/journal365ai">
+                {/* <a href="https://www.facebook.com/journal365ai">
                     <Icon as={FaFacebook} />
                 </a>
                 <a href="https://www.youtube.com">
@@ -72,7 +72,7 @@ const Footer = () => {
                 </a>
                 <a href="https://twitter.com/Journal365ai">
                     <Icon as={BsTwitterX} />
-                </a>
+                </a> */}
             </Container>
         </FooterWrapper>
     );
