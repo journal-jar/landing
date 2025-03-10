@@ -13,7 +13,7 @@ const StyledButton = styled.button`
   font-size: 1.25rem;
   cursor: pointer;
   transition: background-color 0.3s ease; // Smooth transition for the background color
-  border-radius: 8px;
+  border-radius: 6px;
   font-weight: bold;
 
   &:hover {
