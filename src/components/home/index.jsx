@@ -61,7 +61,7 @@ const Home = () => {
         target="_blank"
         style={{ textDecoration: "none" }}
       >
-        <StyledButton>Available for download on IOS 🎉</StyledButton>
+        <StyledButton>Available for download on iPhone 🎉</StyledButton>
       </a>
       <Footer />
     </div>
