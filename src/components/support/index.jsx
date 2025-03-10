@@ -61,16 +61,16 @@ const Support = () => {
         </p>
         <p style={darkModeStyles.paragraph}>
           <a
-            href="mailto:contact@journal365.ai"
+            href="mailto:support@TheJournalingHabit.com"
             style={{ color: Colors.LIGHT_BLUE }}
           >
-            contact@journal365.ai
+            support@TheJournalingHabit.com
           </a>
         </p>
         <p style={darkModeStyles.sectionTitle}>Feedback</p>
         <p style={darkModeStyles.paragraph}>
           Your feedback is valuable to us. Please let us know how we can improve
-          your experience with Journal365.
+          your experience with The Journaling Habit.
         </p>
       </div>
     </div>

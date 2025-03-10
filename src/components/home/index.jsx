@@ -21,32 +21,50 @@ const StyledButton = styled.button`
 
 const Home = () => {
   return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: 'center', padding: '20px 10%', backgroundColor: Colors.BLACK }}>
-      <h1 style={{ fontSize: '3rem', marginBottom: '20px', color: Colors.WHITE }}>Journal365</h1>
-      <p style={{ fontSize: '1.5rem', color: Colors.WHITE }}>
-          Take the Journal365 Challenge!
-          <br />
-          Finally Unlock the Foundational Habit of Journaling
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        textAlign: "center",
+        padding: "20px 10%",
+        backgroundColor: Colors.BLACK,
+      }}
+    >
+      <h1
+        style={{ fontSize: "3rem", marginBottom: "20px", color: Colors.WHITE }}
+      >
+        The Journaling Habit
+      </h1>
+      <p style={{ fontSize: "1.5rem", color: Colors.WHITE }}>
+        Take the Year of Journaling Challenge!
+        <br />
+        Finally Unlock the Foundational Habit of Journaling
       </p>
-      <AnimatedSubtitle/>
-      <img 
+      <AnimatedSubtitle />
+      <img
         src={phoneImage}
-        alt="Phone with Journal365 app"
-        style={{ width: '600px', height: 'auto',}}
+        alt="Phone with The Journaling Habit app"
+        style={{ width: "600px", height: "auto" }}
       />
-      <p style={{ fontSize: '1.25rem', marginBottom: '20px', color: Colors.WHITE }}>
-        Official Launch for IOS on April 1st 2024 🎉
-      </p>
-      <p style={{ fontSize: '1.25rem', marginBottom: '20px', color: Colors.WHITE }}>
-        </p>
-        <a href="https://testflight.apple.com/join/crr4Eu99" target="_blank" style={{ textDecoration: 'none' }}>
-          <StyledButton>
-            In the meantime, try the beta
-          </StyledButton>
-        </a>
-        <Footer />
-      </div>
 
+      <p
+        style={{
+          fontSize: "1.25rem",
+          marginBottom: "20px",
+          color: Colors.WHITE,
+        }}
+      ></p>
+      <a
+        href="https://apps.apple.com/us/app/journal365ai/id6474921179"
+        target="_blank"
+        style={{ textDecoration: "none" }}
+      >
+        <StyledButton>Available for download on IOS 🎉</StyledButton>
+      </a>
+      <Footer />
+    </div>
   );
 };
 
