@@ -1,9 +1,9 @@
-import React from 'react';
-import phoneImage from '../../assets/phone.png'
-import Footer from './Footer';
-import styled from 'styled-components';
-import Colors from '../../utils/Colors';
-import AnimatedSubtitle from './AnimatedSubtitle';
+import React from "react";
+import phoneImage from "../../assets/phone.png";
+import Footer from "./Footer";
+import styled from "styled-components";
+import Colors from "../../utils/Colors";
+import AnimatedSubtitle from "./AnimatedSubtitle";
 
 const StyledButton = styled.button`
   padding: 10px 20px;
@@ -13,6 +13,8 @@ const StyledButton = styled.button`
   font-size: 1.25rem;
   cursor: pointer;
   transition: background-color 0.3s ease; // Smooth transition for the background color
+  border-radius: 8px;
+  font-weight: bold;
 
   &:hover {
     background-color: ${Colors.PURPLE};
@@ -60,6 +62,7 @@ const Home = () => {
         href="https://apps.apple.com/us/app/journal365ai/id6474921179"
         target="_blank"
         style={{ textDecoration: "none" }}
+        rel="noreferrer"
       >
         <StyledButton>Available for download on iPhone 🎉</StyledButton>
       </a>
