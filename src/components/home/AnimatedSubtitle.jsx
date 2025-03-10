@@ -52,7 +52,7 @@ const AnimatedSubtitle = () => {
             <p style={{ color: Colors.WHITE, fontSize: '1.5rem' }}>
                 A year of
             </p>
-            <div style={{width: "100px"}}>
+            <div >
                 <Word key={index}>
                     &nbsp;{toggleWords[index]}
                 </Word>
@@ -66,7 +66,7 @@ const styles = {
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'center',
-        alignItems: 'center',
+        alignItems: 'start',
         position: 'relative', // Necessary for absolute positioning of Word
     },
 }
