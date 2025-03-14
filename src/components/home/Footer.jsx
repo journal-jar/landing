@@ -58,7 +58,7 @@ const Footer = () => {
         <FooterWrapper>
             <PrivacyLink onClick={handlePrivacy} >Privacy Policy</PrivacyLink>
             <Container>
-                <a href="https://www.linkedin.com/company/journal365/">
+                <a href="https://www.linkedin.com/company/thejournalinghabit/">
                     <Icon as={FaLinkedin} />
                 </a>
                 {/* <a href="https://www.facebook.com/journal365ai">
